@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Google fonts-->
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title><i class="fas fa-balance-scale-right"></i> UnitsConverter</title>
+</head>
+
+<!-- Body -->
+<body>
+<div class="container">
+  <h1>Units Converter</h1> 
+</div>
+
+<div class="areamain">
+  
+<!-- Area start-->
+<div class="area1">
+  <h1 class="header">Area</h1>
+
+<label for="area11">From: </label>
+<input type="number" name="area11" id="area11" value="">
+<select name="area12" id="area12">
+
+  <option value="milimeter">MiliMeter</option>
+  <option value="centimeter">CentiMeter</option>
+  <option value="kilometer">KiloMeter</option>
+  <option value="micrometer">MicroMeter</option>
+  <option value="meter">Meter</option>
+</select>
+
+
+<span>=</span>
+
+
+<label for="area21">To: </label>
+<input type="number" name="area21" id="area21" value="">
+<select name="area22" id="area22">
+  <option value="centimeter">CentiMeter</option>
+  <option value="milimeter">MiliMeter</option>
+  <option value="kilometer">KiloMeter</option>
+  <option value="micrometer">MicroMeter</option>
+  <option value="meter">Meter</option>
+</select>
+<input type="submit" value="submit" onclick=myFunction()>
+
+</div>
+ 
+<!-- Area End-->
+
+<!-- Temperature Start-->
+<div class="area2">
+<h1 class="header">Temperture</h1>
+<label for="celsius">Celsius</label>
+<input type="number" name="celsius" id="tempc" value="0" onchange= myFunc()>
+
+
+<label for="kelvin">Kelvin</label>
+<input type="number" name="kelvin" id="tempk" value="0" onchange=myFunc()>
+
+<label for="fahrenheit">Fahrenheit</label>
+<input type="number" name="fahrenheit" id="tempf" value="0" onchange=myFunc()>
+
+</div>
+
+<!-- Weight -->
+<div class="area3">
+  <h1 class="header"> Weight </h1>
+  <label for="leftside">From:</label>
+  <input type="number" name="leftside" value="" id="weight1" >
+  <label for="rightside">To:</label>
+  <input type="number" name="rightside" value="" id="weight2" >
+  
+  
+</div>
+
+
+
+
+
+
+
+<!-- Time -->
+
+</div>
+
+
+
+
+
+
+  <script src="units.js"></script>
+</body>
+</html>
